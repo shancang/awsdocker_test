@@ -1,0 +1,21 @@
+{
+  "taskDefinition": {
+    "family": "hello-world",
+    "containerDefinitions": [
+      {
+        "name": "hello-world",
+        "image": "arn:aws:ecr:us-east-1:608725328408:repository/sunny-nginx",
+        "cpu": 100,
+        "portMappings": [
+          {
+            "protocol": "tcp",
+            "containerPort": 80,
+            "hostPort": 0
+          }
+        ],
+        "memory": 128,
+        "essential": true
+      }
+    ]
+  }
+}
