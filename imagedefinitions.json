@@ -4,7 +4,7 @@
     "containerDefinitions": [
       {
         "name": "hello-world",
-        "image": "arn:aws:ecr:us-east-1:608725328408:repository/sunny-nginx",
+        "image": "608725328408.dkr.ecr.us-east-1.amazonaws.com/sunny-nginx-test:latest",
         "cpu": 100,
         "portMappings": [
           {
